@@ -1,7 +1,7 @@
 # Complex-Infections
 Contains the scripts and test files for the manuscript "Detecting complex infections in Trypanosomatids using in whole genome sequencing reads"
 The script *CI_Estimation_server.v.7.R* receives a VCF file that contains the read depth information for each allele in a sample, estimates the **"Complexity Index" (CI)** and classify the isolate in complex (multiclonal or poliploid) or not.
-
+Examples of SNP callers that can generate these vcfs are [GATK](https://gatk.broadinstitute.org/hc/en-us), [freebayes](https://github.com/freebayes/freebayes) and [octopus](https://luntergroup.github.io/octopus/).  
 
 # How to run the script:
 The script receives a VCF file and do all the analysis and plots.
@@ -42,7 +42,7 @@ ERR205789	61
 
 The Chromosome copies file has to be named "CCNV.Table.ordered", also TAB separatted file
 The first column correspond to the chromosome number, similar to what was present in the VCF file, and the header must be "Chromosome"
-Chromosome names have to be only numerals, as in 1, 2, 3...
+Chromosome names should have only numerals, as in 1, 2, 3, so that the plots always have the chromosomes in order.
 The headers from columns 2 to "n" must be the sample IDs, identical to the ones in the "sample_names" file.
 The lines correspond to each chromosome copy number
 And example of the "CCNV.Table.ordered" file for the isolates ERR205724, ERR205789, ERR3956088 and ERR4678145 from L. donovani, that has 36 chromosomes
