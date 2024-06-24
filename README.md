@@ -107,8 +107,8 @@ Chromosome	ERR205724	ERR205789	ERR3956088	ERR4678145
 Example data for 4 VCFs can be obteined in the [Test_data](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data) folder in the repository.   
 This folder also has:   
 A example [CCNV.Table.ordered](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/CCNV.Table.ordered) CCNV data file;   
-A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file
-And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/sample_names) file with sample IDs
+A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file   
+And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/sample_names) file with sample IDs   
 
 The output files generated for this four isolates can be seen in the folder (Test_outputs)[https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs]
 
