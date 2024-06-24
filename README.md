@@ -20,7 +20,25 @@ Example
 $  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.rec2.recode.vcf ; done
 ```
 
-The script can estimate the Chromosomal Copy Number Variation (CCNV) and genome coverage directly from the VCF file. However, we strongly suggest that the CCNV and genome coverage be estimated with other tools. The scipt can
+**Supporting data:**
+The "sample_names" file is a text file containing the IDs of your samples, one at each line, as in:
+```
+ERR205724
+ERR205789
+ERR3956088
+ERR4678145
+```
+The script can estimate the Chromosomal Copy Number Variation (CCNV) and genome coverage directly from the VCF file. 
+However, we strongly suggest that the CCNV and genome coverage be estimated with other tools.
+The script automatically detect the files ***Genome_Cov.Table*** (has the genome coverage information) and ***CCNV.Table.ordered*** (has the CCNV information) in the same folder that the script is run.
+
+The genome coverage file should be a text file named "Genome_Cov.Table", have no header, and two columns. A TAB separated file.
+The first column is the sequence ID and the second the genome coverage, as in:
+```
+ERR4678145	54
+ERR205724	59
+ERR205789	61
+```
 
 
 
