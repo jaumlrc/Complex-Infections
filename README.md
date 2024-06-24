@@ -28,7 +28,7 @@ ERR205789
 ERR3956088
 ERR4678145
 ```
-The script can estimate the Chromosomal Copy Number Variation (CCNV) and genome coverage directly from the VCF file. 
+The script can estimate the Chromosomal Copy Number Variation (CCNV) and genome coverage directly from the VCF file.<br /> 
 However, we strongly suggest that the CCNV and genome coverage be estimated with other tools.
 The script automatically detect the files ***Genome_Cov.Table*** (has the genome coverage information) and ***CCNV.Table.ordered*** (has the CCNV information) in the same folder that the script is run.
 
