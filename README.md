@@ -120,7 +120,7 @@ And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/
 The output files generated for this four isolates can be seen in the folder (Test_outputs)[https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs]
 
 #Output files
-The two main output files are:
+The three main output files are:
 1-Plot representing the Alternate Allele Read Depth (AARD) in the real data (purple) and in the simulated clonal dissomic euploid isolate (cyan):
 ```
 <sample_name>.simulated_data_distribution.png
@@ -149,6 +149,13 @@ An example for the polyploid sample ERR205789:
 An example for the euploid clonal ERR4678145:
 ![ERR4678145.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR4678145.CI_final_result.png)
 
+3-Table (CSV format) with the final results for the sample:
+```
+<sample_name>..table.simulation_replicates_final.csv
+```
+[ERR4678145.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.table.simulation_replicates_final.csv)
+
+
 ---
 # Supporting files
 The script also generate several supporting files, such as:   
@@ -168,5 +175,6 @@ The script also generate several supporting files, such as:
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Plot_SNPs_overall_pre.png)
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_Snps_het_hom_filt.png)
 
+4-he script also generates several tables, with 
 
 
