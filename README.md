@@ -8,6 +8,7 @@ Examples of SNP callers that can generate VCF in the correct format are [GATK](h
 We **Strongly** suggest that the VCF be filtered to maintain only biallelic SNP sites, removing insertions/deletions.  
 We also suggest that the VCF should be filtered to remove repetitive regions.
 
+---
 
 # Required R libraries:
 * ggplot2
@@ -24,7 +25,7 @@ $  install.packages('<package_name')
 as in
 $  install.packages('vcfR')
 ```
-
+---
 # How to run the script:
 The script receives a VCF file and do all the analysis and plots.
 
@@ -41,7 +42,7 @@ $  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.
 Example
 $  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.rec2.recode.vcf ; done
 ```
-
+---
 **Supporting data:**   
 The "sample_names" file is a text file containing the IDs of your samples, one at each line, as in:
 ```
@@ -108,7 +109,7 @@ Chromosome	ERR205724	ERR205789	ERR3956088	ERR4678145
 35	35	1	1.148	1	0.9815
 36	36	0.9661	1.082	0.9545	0.9815
 ```
-
+---
 # Test data and expected outpus
 Example data for 4 VCFs can be obteined in the [Test_data](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data) folder in the repository.   
 This folder also has:   
@@ -163,6 +164,7 @@ The script also generate several supporting files, such as:
 ```
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png)
 
+3-The number of SNPs classifyes as homozygous, heterozygous and "dubious" (less than 5 reads supporting the rarer allele):
 
 
 
