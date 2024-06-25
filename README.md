@@ -5,7 +5,8 @@ The script *CI_Estimation_server.v.7.R* receives a VCF file that contains the re
    
 Examples of SNP callers that can generate these vcfs are [GATK](https://gatk.broadinstitute.org/hc/en-us), [freebayes](https://github.com/freebayes/freebayes) and [octopus](https://luntergroup.github.io/octopus/).  
    
-We **Strongly** suggest that the VCF file be filtered to maintain only biallelic SNP sites, removing insertions/deletions.   
+We **Strongly** suggest that the VCF be filtered to maintain only biallelic SNP sites, removing insertions/deletions.  
+We also suggest that the VCF should be filtered to remove repetitive regions.
 
 
 # Required R libraries:
