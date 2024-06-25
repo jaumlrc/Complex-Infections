@@ -183,8 +183,18 @@ The script also generates several tables:
 ```
 <sample_name>.SNP_counts_table.csv
 ```
-[ERR205724.SNP_counts_table.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.SNP_counts_table.csv)ERR205724.SNP_counts_table.csv
+[ERR205724.SNP_counts_table.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.SNP_counts_table.csv)
 
+2-Table with the CI and supportin information for each heterozygous SNP position in the sample:
+```
+<sample_name>.real_data_to_MH.csv
+```
+[ERR205724.real_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.real_data_to_MH.csv)
+3-Table with the CI and supportin information for each heterozygous SNP position in the simulated clonal euploid sample:
+```
+<sample_name>.simulated_data_to_MH.csv
+```
+[ERR205724.imulated_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.imulated_data_to_MH.csv)
 
 
 
