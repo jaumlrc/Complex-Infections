@@ -126,14 +126,14 @@ The three main output files are:
 ```
 <sample_name>.simulated_data_distribution.png
 ```
-An example for the multiclonal sample ERR205724 (file ERR205724.simulated_data_distribution.png)   
+An example for the multiclonal sample ERR205724: 
 ![ERR205724.dist](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
 
 An example for the polyploid sample ERR205789:
 ![ERR205789.dist](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205789.simulated_data_distribution.png)
 
 An example for the euploid clonal ERR4678145:
-![ERR4678145.dist](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205789.simulated_data_distribution.png)
+![ERR4678145.dist](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR4678145.simulated_data_distribution.png)
 
 2-Plot representing the CI and proportion of evaluated chromosomes for the real data (has sample_name) and the simulated data, named as "Control.<sample_name>. 
 The X axis correspond to the CI, where verticall red dotted line correspond to a complexity level of 0.1, which is the cutoff to classify the isolate as complex.   
