@@ -151,13 +151,13 @@ An example for the euploid clonal ERR4678145:
 ---
 
 The script also generate several supporting files, such as:   
-Boxplot of the CI value for each SNP in each evaluated chromosome:   
+1-Boxplot of the CI value for each SNP in each evaluated chromosome:   
 ```
 <sample_name>.Compl.chr.png
 ```
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Compl.chr.png)
 
-The AARD distribution of each SNP in each chromosome. Each dot correspond to a heterozygous SNP. The Y axis correspond to the AARD value for the SNP, where the red line correspond to 0.5 (expected for a disomic clonal isolate) and the blue lines mark the values of 0.25 and 0.75. The color correspond to the read depth in the SNP position scaled by the genome coverage (cov_norm) .   
+2-The AARD distribution of each SNP in each chromosome. Each dot correspond to a heterozygous SNP. The Y axis correspond to the AARD value for the SNP, where the red line correspond to 0.5 (expected for a disomic clonal isolate) and the blue lines mark the values of 0.25 and 0.75. The color correspond to the read depth in the SNP position scaled by the genome coverage (cov_norm) .   
 ```
 <sample_name>.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png
 ```
