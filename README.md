@@ -111,7 +111,7 @@ Chromosome	ERR205724	ERR205789	ERR3956088	ERR4678145
 ```
 ---
 # Test data and expected outpus
-Example data for 4 VCFs can be obteined in the [Test_data](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data) folder in the repository.   
+Example data for 4 VCFs can be obteined in the [Test_data](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data) folder.   
 This folder also has:   
 A example [CCNV.Table.ordered](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/CCNV.Table.ordered) CCNV data file;   
 A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file;   
@@ -190,7 +190,7 @@ The script also generates several tables:
 <sample_name>.real_data_to_MH.csv   
 ```
 [ERR205724.real_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.real_data_to_MH.csv)
-3-Table with the CI and supportin information for each heterozygous SNP position in the simulated clonal euploid sample:
+3-Table with the CI and supporting information for each heterozygous SNP position in the simulated clonal euploid sample:
 ```
 <sample_name>.simulated_data_to_MH.csv
 ```
