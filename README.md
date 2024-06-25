@@ -119,7 +119,14 @@ And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/
 The output files generated for this four isolates can be seen in the folder (Test_outputs)[https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs]
 
 #Output files
+The three main output files are:
 
+
+1-Plot representing the Alternate Allele Read Depth (AARD) in the real data (purple) and in the simulated clonal dissomic euploid isolate (cyan):
+```
+<sample_name>.simulated_data_distribution.png
+```
+An example for ![ERR205724](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
 
 
 
