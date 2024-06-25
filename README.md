@@ -41,7 +41,7 @@ Example
 $  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.rec2.recode.vcf ; done
 ```
 
-**Supporting data:**
+**Supporting data:**   
 The "sample_names" file is a text file containing the IDs of your samples, one at each line, as in:
 ```
 ERR205724
@@ -51,8 +51,8 @@ ERR4678145
 ```
 The script can estimate the Chromosomal Copy Number Variation (CCNV) and genome coverage directly from the VCF file.<br /> 
 However, we strongly suggest that the CCNV and genome coverage be estimated with other tools.
-The script automatically detect the files ***Genome_Cov.Table*** (has the genome coverage information) and ***CCNV.Table.ordered*** (has the CCNV information) in the same folder that the script is run.
-
+The script automatically detect the files ***Genome_Cov.Table*** (has the genome coverage information) and ***CCNV.Table.ordered*** (has the CCNV information) in the same folder that the script is run.   
+   
 The genome coverage file should be a TAB sepparated file file named "Genome_Cov.Table", have no header, and two columns. 
 The first column is the sequence ID and the second the genome coverage, as in:
 ```
@@ -61,11 +61,11 @@ ERR205724	59
 ERR205789	61
 ```
 
-The Chromosome copies file has to be named "CCNV.Table.ordered", also TAB separatted file
-The first column correspond to the chromosome number, similar to what was present in the VCF file, and the header must be "Chromosome"
-Chromosome names should have only numerals, as in 1, 2, 3, so that the plots always have the chromosomes in order.
-The headers from columns 2 to "n" must be the sample IDs, identical to the ones in the "sample_names" file.
-The lines correspond to each chromosome copy number
+The Chromosome copies file has to be named "CCNV.Table.ordered", also TAB separatted file.   
+The first column correspond to the chromosome number, similar to what was present in the VCF file, and the header must be "Chromosome".   
+Chromosome names should have only numerals, as in 1, 2, 3, so that the plots always have the chromosomes in order.   
+The headers from columns 2 to "n" must be the sample IDs, identical to the ones in the "sample_names" file.   
+The lines correspond to each chromosome copy number   
 And example of the "CCNV.Table.ordered" file for the isolates ERR205724, ERR205789, ERR3956088 and ERR4678145 from L. donovani, that has 36 chromosomes
 
 ```
@@ -112,8 +112,8 @@ Chromosome	ERR205724	ERR205789	ERR3956088	ERR4678145
 Example data for 4 VCFs can be obteined in the [Test_data](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data) folder in the repository.   
 This folder also has:   
 A example [CCNV.Table.ordered](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/CCNV.Table.ordered) CCNV data file;   
-A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file   
-And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/sample_names) file with sample IDs   
+A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file;   
+And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/sample_names) file with sample IDs;   
 
 The output files generated for this four isolates can be seen in the folder (Test_outputs)[https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs]
 
