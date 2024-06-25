@@ -126,7 +126,8 @@ The three main output files are:
 ```
 <sample_name>.simulated_data_distribution.png
 ```
-An example for ![ERR205724](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
+An example for ERR205724 (file ERR205724.simulated_data_distribution.png)   
+![ERR205724](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
 
 
 
