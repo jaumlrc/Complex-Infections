@@ -127,10 +127,18 @@ The three main output files are:
 <sample_name>.simulated_data_distribution.png
 ```
 An example for ERR205724 (file ERR205724.simulated_data_distribution.png)   
-![ERR205724](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
+![ERR205724.dist](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.simulated_data_distribution.png)
 
+2-Plot representing the CI and proportion of evaluated chromosomes for the real data (has sample_name) and the simulated data, named as "Control.<sample_name>. 
+The X axis correspond to the CI, where verticall red dotted line correspond to a complexity level of 0.1, which is the cutoff to classify the isolate as complex.   
+The Y axis correspond to the proportion of evaluated chromosomes that had a CI higher than 01. The cutoff is 50% of the chromosomes, to account for chromosomal instability and mosaic aneuploidy.   
 
-
+If the real data sample has complexity values higher than 0.1, and more than 50% of the evaluated chromosomes also have complexity > 0.1; the dot is
+```
+<sample_name>.CI_final_result.png
+```
+An example for ERR205724 (ERR205724.CI_final_result.png)
+![ERR205724.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.CI_final_result.png)
 
 
 
