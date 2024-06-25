@@ -143,8 +143,10 @@ If the real data sample has complexity values higher than 0.1, and more than 50%
 ```
 <sample_name>.CI_final_result.png
 ```
-An example for ERR205724 (ERR205724.CI_final_result.png)
+An example for the multiclonal sample ERR205724: 
 ![ERR205724.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.CI_final_result.png)
-
-
+An example for the polyploid sample ERR205789:
+![ERR205789.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205789.CI_final_result.png)
+An example for the euploid clonal ERR4678145:
+![ERR4678145.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR4678145.CI_final_result.png)
 
