@@ -150,7 +150,7 @@ An example for the euploid clonal ERR4678145:
 ![ERR4678145.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR4678145.CI_final_result.png)
 
 ---
-
+# Supporting files
 The script also generate several supporting files, such as:   
 1-Boxplot of the CI value for each SNP in each evaluated chromosome:   
 ```
