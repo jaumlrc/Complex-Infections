@@ -169,9 +169,9 @@ The script also generate several supporting files, such as:
 
 2-The AARD distribution of each SNP in each chromosome. Each dot correspond to a heterozygous SNP. The Y axis correspond to the AARD value for the SNP, where the red line correspond to 0.5 (expected for a disomic clonal isolate) and the blue lines mark the values of 0.25 and 0.75. The color correspond to the read depth in the SNP position scaled by the genome coverage (cov_norm) .   
 ```
-<sample_name>.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png
+<sample_name>.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png   
 ```
-![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png)
+![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_chr_SNPs_scaled_cov_SMAF_inv.png)   
 
 3-The number of SNPs classifyes as homozygous, heterozygous and "dubious" (less than 5 reads supporting the rarer allele), and the read depth (scaled by the genome coverage) for each of these three classes:
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Plot_SNPs_overall_pre.png)
@@ -189,10 +189,10 @@ The script also generates several tables:
 ```
 <sample_name>.real_data_to_MH.csv   
 ```
-[ERR205724.real_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.real_data_to_MH.csv)
+[ERR205724.real_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.real_data_to_MH.csv)   
 3-Table with the CI and supporting information for each heterozygous SNP position in the simulated clonal euploid sample:
 ```
-<sample_name>.simulated_data_to_MH.csv
+<sample_name>.simulated_data_to_MH.csv   
 ```
 [ERR205724.imulated_data_to_MH.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.imulated_data_to_MH.csv)
 
