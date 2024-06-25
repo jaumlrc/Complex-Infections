@@ -151,9 +151,9 @@ An example for the euploid clonal ERR4678145:
 
 3-Table (CSV format) with the final results for the sample:
 ```
-<sample_name>..table.simulation_replicates_final.csv
+<sample_name>.table.simulation_replicates_final.csv
 ```
-[ERR4678145.final](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.table.simulation_replicates_final.csv)
+[ERR4678145.table.simulation_replicates_final.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.table.simulation_replicates_final.csv)
 
 
 ---
