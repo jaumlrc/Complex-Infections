@@ -117,7 +117,7 @@ A example [CCNV.Table.ordered](https://github.com/jaumlrc/Complex-Infections/blo
 A example [Genome_Cov.Table](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/Genome_Cov.Table) Genome coverage file;   
 And a exemple [sample_names](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data/sample_names) file with sample IDs;   
 
-The output files generated for this four isolates can be seen in the folder (Test_outputs)[https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs]
+The output files generated for this four isolates can be seen in the folder [Test_outputs](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs)
 
 #Output files
 The three main output files are:
