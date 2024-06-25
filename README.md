@@ -3,7 +3,7 @@ Contains the scripts and test files for the manuscript "Detecting complex infect
    
 The script *CI_Estimation_server.v.7.R* receives a VCF file that contains the read depth information for each allele in a sample, estimates the **"Complexity Index" (CI)** and classify the isolate in complex (multiclonal or poliploid) or not.   
    
-Examples of SNP callers that can generate these vcfs are [GATK](https://gatk.broadinstitute.org/hc/en-us), [freebayes](https://github.com/freebayes/freebayes) and [octopus](https://luntergroup.github.io/octopus/).  
+Examples of SNP callers that can generate VCF in the correct format are [GATK](https://gatk.broadinstitute.org/hc/en-us), [freebayes](https://github.com/freebayes/freebayes) and [octopus](https://luntergroup.github.io/octopus/).  
    
 We **Strongly** suggest that the VCF be filtered to maintain only biallelic SNP sites, removing insertions/deletions.  
 We also suggest that the VCF should be filtered to remove repetitive regions.
