@@ -158,7 +158,9 @@ An example for the euploid clonal ERR4678145:
 
 ---
 # Supporting files
-The script also generate several supporting files, such as:   
+The script also generate several supporting files, such as:  
+
+**Supporting Figures**
 1-Boxplot of the CI value for each SNP in each evaluated chromosome:   
 ```
 <sample_name>.Compl.chr.png
@@ -175,6 +177,15 @@ The script also generate several supporting files, such as:
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Plot_SNPs_overall_pre.png)
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_Snps_het_hom_filt.png)
 
-4-he script also generates several tables, with 
+**Supporting Tables**
+The script also generates several tables:
+1-Table with the number of SNPs in each class:
+```
+<sample_name>.SNP_counts_table.csv
+```
+[ERR205724.SNP_counts_table.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.SNP_counts_table.csv)ERR205724.SNP_counts_table.csv
+
+
+
 
 
