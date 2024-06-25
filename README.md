@@ -166,7 +166,7 @@ The script also generate several supporting files, such as:
 
 3-The number of SNPs classifyes as homozygous, heterozygous and "dubious" (less than 5 reads supporting the rarer allele), and the read depth (scaled by the genome coverage) for each of these three classes:
 ![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Plot_SNPs_overall_pre.png)
-![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.coverage_across_Snps_het_hom_filt.png)
+![ERR205724.chr](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs/ERR205724.Coverage_across_Snps_het_hom_filt.png)
 
 
 
