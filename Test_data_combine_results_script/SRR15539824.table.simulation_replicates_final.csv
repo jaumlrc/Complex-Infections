@@ -1,0 +1,3 @@
+samp_name;coverage;soma;sd;md;ct;Pop;num_rows;mant_test.statistic;mant_test.parameter;mant_test.p.value;mant_test.estimate;mant_test.null.value;mant_test.alternative;mant_test.method;mant_test.data.name;Q_value_BH;logQv;Chr_evaluated;Chr_CM_higher_0.1;Prop_Chr_CM_higher_0.1
+SRR15539824;40;3599.89733546033;0.0991416921157163;0.176470588235294;21687;Real;21687;18674.8374961937;1;0;0.648228153217593;1;two.sided;Mantel-Haenszel chi-squared test with continuity correction;test_array_sample;0;1000;26;26;100
+Control.SRR15539824;40;1393.77209979968;0.0486129518806493;0.0555555555555556;21687;Simulated;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
