@@ -224,9 +224,16 @@ Example data for this script can be obtained in: [Test_data_combine_results_scri
 Expected outpus for the script using the aforementioned data can be obtained at:[Test_outputs_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs_combine_results_script).
 
 This data correspond to results from the Leishmania braziliensis dataset from [Louradour et all 2021](https://elifesciences.org/articles/73488).
+
 ---
 **Main expected outputs**
 1-Complexity assessment of all samples in the dataset: X axis corrspondsto CI and Y axis to the proportion of chromosomes that had CI higher than 0.1
 
 ![Lourador_Lbraziliensis.complexity_all_separated_chr_new.png](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs_combine_results_script/Lourador_Lbraziliensis.complexity_all_separated_chr_new.png)
+
+2-AARD distribution plot for all samples
+![Lourador_Lbraziliensis.simulated_data_distribution_complex.png](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs_combine_results_script/Lourador_Lbraziliensis.simulated_data_distribution_complex.png)
+
+3-Table with the summary results for all samples and simmulated clonal isolates:
+[Lourador_Lbraziliensis.Table_with_updated_complex.csv](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs_combine_results_script/Lourador_Lbraziliensis.Table_with_updated_complex.csv)
 
