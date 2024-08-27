@@ -206,7 +206,7 @@ We also provide a script that combines the outputs from the "CI_Estimation_serve
 * stringr
 * gplots
 
-**Running for one sample**:
+**Running the script**:
 ```
 $  Rscript Combine_complexity_estimates_server.v3.R <sample_names_file> <output_prefix>
 Example:
@@ -224,6 +224,9 @@ Example data for this script can be obtained in: [Test_data_combine_results_scri
 Expected outpus for the script using the aforementioned data can be obtained at:[Test_outputs_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs_combine_results_script).
 
 This data correspond to results from the Leishmania braziliensis dataset from [Louradour et all 2021](https://elifesciences.org/articles/73488).
+---
+**Main expected outputs**
+1-Complexity assessment of all samples in the dataset: X axis corrspondsto CI and Y axis to the proportion of chromosomes that had CI higher than 0.1
 
-
+![Lourador_Lbraziliensis.complexity_all_separated_chr_new.png](https://github.com/jaumlrc/Complex-Infections/blob/main/Test_outputs_combine_results_script/Lourador_Lbraziliensis.complexity_all_separated_chr_new.png)
 
