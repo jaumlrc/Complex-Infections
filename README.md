@@ -1,7 +1,7 @@
 # Complex-Infections
 Contains the scripts and test files for the manuscript "Detecting complex infections in Trypanosomatids using in whole genome sequencing reads"   
    
-The script *CI_Estimation_server.v.7.R* receives a VCF file that contains the read depth information for each allele in a sample, estimates the **"Complexity Index" (CI)** and classify the isolate in complex (multiclonal or poliploid) or not.   
+The script *CI_Estimation_server.v.8.R* receives a VCF file that contains the read depth information for each allele in a sample, estimates the **"Complexity Index" (CI)** and classify the isolate in complex (multiclonal or poliploid) or not.   
    
 Examples of SNP callers that can generate VCF in the correct format are [GATK](https://gatk.broadinstitute.org/hc/en-us), [freebayes](https://github.com/freebayes/freebayes) and [octopus](https://luntergroup.github.io/octopus/).  
    
@@ -31,16 +31,16 @@ The script receives a VCF file and do all the analysis and plots.
 
 **Running for one sample**:
 ```
-$  Rscript CI_Estimation_server.v7.R <sample_Id> <vcf.file>
+$  Rscript CI_Estimation_server.v8.R <sample_Id> <vcf.file>
 Example:
-$  Rscript CI_Estimation_server.v7.R ERR205724 ERR205724.rec2.recode.vcf
+$  Rscript CI_Estimation_server.v8.R ERR205724 ERR205724.rec2.recode.vcf
 ```
 
 **Running for "n" samples listes in the ***sample_names*** file**
 ```
-$  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.<vcf_pattern> ; done
+$  for i in $(cat sample_names); do Rscript CI_Estimation_server.v8.R ${i} ${i}.<vcf_pattern> ; done
 Example
-$  for i in $(cat sample_names); do Rscript CI_Estimation_server.v7.R ${i} ${i}.rec2.recode.vcf ; done
+$  for i in $(cat sample_names); do Rscript CI_Estimation_server.v8.R ${i} ${i}.rec2.recode.vcf ; done
 ```
 ---
 **Supporting data:**   
@@ -191,7 +191,30 @@ The script also generates several tables:
 ```
 <sample_name>.simulated_data_to_MH.csv   
 ```
+---
+**Combining several samples in a single plot**
+We also provide a script that combines the outputs from the "CI_Estimation_server.v8.R" in population-wide plots and summary tables
 
+# Required R libraries:
+* ggplot2
+* reshape2
+* RColorBrewer
+* dplyr
+* tidyr
+* tidyverse
+* ggrepel
+* stringr
+* gplots
 
+**Running for one sample**:
+```
+$  Rscript Combine_complexity_estimates_server.v3.R <sample_names_file> <output_prefix>
+Example:
+$  Rscript Combine_complexity_estimates_server.v3.R sample_names_braziliensis Lourador_Lbraziliensis
 
+Where:
+sample_names_braziliensis is a file containing all your sample IDs used to run the "CI_Estimation_server.v8.R" script, one in each line, as in 
+[sample_names_braziliensis]https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data_combine_results_script/sample_names_braziliensis
+
+Lourador_Lbraziliensis is your selection of prefix for all output files
 
