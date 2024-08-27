@@ -194,7 +194,7 @@ The script also generates several tables:
 ---
 # Combining several samples in a single plot
 
-We also provide a script that combines the outputs from the "CI_Estimation_server.v8.R" in population-wide plots and summary tables
+We also provide a script [Combine_complexity_estimates_server.v3.R](https://github.com/jaumlrc/Complex-Infections/blob/main/Combine_complexity_estimates_server.v3.R), that combines the outputs from the "CI_Estimation_server.v8.R" in population-wide plots and summary tables
 
 **Required R libraries:**
 * ggplot2
