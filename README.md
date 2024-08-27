@@ -218,9 +218,10 @@ Where:
 
 **Lourador_Lbraziliensis** is your selection of prefix for all output files
 
-Example data for this script can be obtained in: [Test_data_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data_combine_results_script)
-Expected outpus for the script using the aforementioned data can be obtained at:[Test_outputs_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs_combine_results_script)
-This data correspond to results from the Leishmania braziliensis dataset from [Louradour et all 2021](https://elifesciences.org/articles/73488)
+Example data for this script can be obtained in: [Test_data_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data_combine_results_script).
+Expected outpus for the script using the aforementioned data can be obtained at:[Test_outputs_combine_results_script](https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs_combine_results_script).
+
+This data correspond to results from the Leishmania braziliensis dataset from [Louradour et all 2021](https://elifesciences.org/articles/73488).
 
 
 
