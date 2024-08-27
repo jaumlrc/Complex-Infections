@@ -192,7 +192,7 @@ The script also generates several tables:
 <sample_name>.simulated_data_to_MH.csv   
 ```
 ---
-# Combining several samples in a single plot.**
+# Combining several samples in a single plot
 
 We also provide a script that combines the outputs from the "CI_Estimation_server.v8.R" in population-wide plots and summary tables
 
