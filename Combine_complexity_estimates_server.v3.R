@@ -12,7 +12,6 @@ options(scipen=999)
 options(warn=-1)
 
 #Receiving the List with IDs and the output prefix
-sample_names_all <- c("sample_names_braziliensis", "Lourador_Lbraziliensis")
 
 sample_names_all <- commandArgs(trailingOnly=TRUE)
 
