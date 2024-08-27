@@ -211,10 +211,16 @@ We also provide a script that combines the outputs from the "CI_Estimation_serve
 $  Rscript Combine_complexity_estimates_server.v3.R <sample_names_file> <output_prefix>
 Example:
 $  Rscript Combine_complexity_estimates_server.v3.R sample_names_braziliensis Lourador_Lbraziliensis
-
+```
 Where:
-sample_names_braziliensis is a file containing all your sample IDs used to run the "CI_Estimation_server.v8.R" script, one in each line, as in 
+**sample_names_braziliensis** is a file containing all your sample IDs used to run the "CI_Estimation_server.v8.R" script, one in each line, as in 
 [sample_names_braziliensis]https://github.com/jaumlrc/Complex-Infections/blob/main/Test_data_combine_results_script/sample_names_braziliensis
 
-Lourador_Lbraziliensis is your selection of prefix for all output files
+**Lourador_Lbraziliensis** is your selection of prefix for all output files
+
+Example data for this script can be obtained in: [Test_data_combine_results_script]https://github.com/jaumlrc/Complex-Infections/tree/main/Test_data_combine_results_script
+Expected outpus for the script using the aforementioned data can be obtained at:[Test_outputs_combine_results_script]https://github.com/jaumlrc/Complex-Infections/tree/main/Test_outputs_combine_results_script
+This data correspond to the L. braziliensis dataset from [Louradour et all 2021]https://elifesciences.org/articles/73488
+
+
 
